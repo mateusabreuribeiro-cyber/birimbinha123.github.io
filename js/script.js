@@ -1,151 +1,39 @@
-//
-// ==============================
-// MODO ESCURO
-// ==============================
+*script.js*
 //
 
-const botaoTema = document.getElementById("botaoTema");
+==
+
+// MODO ESCURO //
+
+const botaoTema = document.getElementById("botao Tema" );
 
 function alternarTema() {
-    document.body.classList.toggle("escuro");
 
-    if (document.body.classList.contains("escuro")) {
-        botaoTema.textContent = "☀️ Modo claro";
-    } else {
-        botaoTema.textContent = "🌙 Modo escuro";
-    }
+document.body.classList.toggle("escu ro");
+
+if
+
+uro")) { (document.body.classList.contains("esc
+
+botaoTema.textContent = " Modo claro";
+
+} else {
+
+botaoTema.textContent = " Modo escuro"; }
+
 }
 
-botaoTema.addEventListener("click", alternarTema);
+botaoTema.addEventListener("click", alternar Tema);
 
 //
-// ==============================
-// ALTERAR TEXTO
-// ==============================
-//
+===================================
+// ALTERAR TEXTO //
+===================================
 
-const botaoMensagem = document.getElementById("botaoMensagem");
-const mensagem = document.getElementById("mensagem");
+botaoMensagem = document.getElementById("botaoMensa const gem");
 
-function alterarTexto() {
-    mensagem.textContent = "O texto foi alterado pelo JavaScript!";
-}
+const ); mensagem = document.getElementById("mensagem"
 
-botaoMensagem.addEventListener("click", alterarTexto);
-/*
+function alterarTexto() { mensagem.textContent = "O texto foi alterado pelo JavaScript!"; }
 
-CONFIGURAÇÃO GERAL
-
-*/
-
-body {
-    font-family: "Poppins", sans-serif;
-    background-color: white;
-    color: #222;
-    transition: 0.3s;
-}
-/* 
-
-NAVBAR
-
-*/
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 50px;
-    background-color: #222;
-    color: white;
-}
-
-/* 
-
-LOGO
-
-*/
-
-.logo {
-    font-size: 24px;
-    font-weight: 700;
-}
-
-/* 
-
-MENU
-
-*/
-
-.menu {
-    display: flex;
-    gap: 30px;
-}
-
-.menu a {
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    transition: 0.3s;
-}
-
-.menu a:hover {
-    opacity: 0.7;
-}
-
-/* 
-
-BOTÕES
-
-*/
-
-button {
-    padding: 10px 18px;
-    border-radius: 8px;
-    background-color: #eee;
-    color: #222;
-    transition: 0.3s;
-}
-
-button:hover {
-    transform: scale(1.05);
-}
-
-/* 
-
-CONTEÚDO
-
-*/
-
-main {
-    text-align: center;
-    padding: 100px 20px;
-}
-
-h1 {
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-
-p {
-    margin-bottom: 30px;
-}
-
-/* 
-
-MODO ESCURO
-
-*/
-
-.escuro {
-    background-color: #222;
-    color: white;
-}
-
-.escuro .navbar {
-    background-color: #111;
-}
-
-.escuro button {
-    background-color: #444;
-    color: white;
-}
+botaoMensagem.addEventListener("clic k", alterar Texto);
